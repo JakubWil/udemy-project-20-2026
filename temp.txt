@@ -1,0 +1,5 @@
+temperatures
+4
+10
+-12
+23
