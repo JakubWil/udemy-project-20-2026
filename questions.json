@@ -1,0 +1,26 @@
+[{
+    "question": "Who is the founder of Apple?",
+    "alternatives": ["Steve Jobs", "Jeff Bezos", "Elon Musk", "Rafal Zaorski"],
+    "correct_answer": 0
+},
+
+{
+    "question": "Who is the founder of Amazon?",
+    "alternatives": ["Steve Jobs", "Jeff Bezos", "Elon Musk", "Rafal Zaorski"],
+    "correct_answer": 1
+},
+
+{
+    "question": "Who is the founder of Tesla?",
+    "alternatives": ["Steve Jobs", "Jeff Bezos", "Elon Musk", "Rafal Zaorski"],
+    "correct_answer": 2
+},
+
+{
+    "question": "Who is the founder of BSB?",
+    "alternatives": ["Steve Jobs", "Jeff Bezos", "Elon Musk", "Rafal Zaorski"],
+    "correct_answer": 3
+}
+
+
+]
