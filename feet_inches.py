@@ -2,8 +2,8 @@ feet_inches = input("Enter feet and inches  ")
 
 
 def parse(feet_inches):
-    f,i = feet_inches.split( )
-    return f,i
+    feet,inches = feet_inches.split( )
+    return {"feet": feet, "inches":inches}
 
 
 
@@ -12,10 +12,11 @@ def convert(feet,inches):
     return meters
 
 
-f,i = parse(feet_inches)
-print(f"fi:{f} and {i}")
+parsed = parse(feet_inches)
 
-if convert(f,i) < 1:
+result = convert(parsed["feet"], parsed["inches"])
+
+if result < 1:
     print("Kid is too small.")
 else:
     print("Kid can use the slide.")
